@@ -31,4 +31,3 @@ jobs:
     - run: npm test
     - run: npm audit fix
     - run: npm audit fix --package-lock-only
-    - run: npm audit --json
