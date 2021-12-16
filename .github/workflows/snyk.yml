@@ -33,6 +33,8 @@ jobs:
         with:
           # Which Snyk command to run, defaults to test
           command: test # optional, default is test
+        env:
+            SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
           # Additional arguments to pass to Snyk
           #args: # optional
           # Output a snyk.json file with results if running the test command
