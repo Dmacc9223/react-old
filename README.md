@@ -68,16 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-
-
-Creating a Repository - curl -u "Sunny9223" https://api.github.com/user/repos -d '{"name":"Repo","private":true}'
-Token 
-Sunny9223 - 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
-Dmacc9223 - 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
-Suraj7399 - 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
-
-
-Deleting a repository - curl -X DELETE -H 'Authorization: token [GENERATED_TOKEN]' https://api.github.com/repos/[USER]/[REPO_NAME]
