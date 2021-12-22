@@ -23,4 +23,4 @@ jobs:
         run:  curl -fsSL https://deno.land/x/install/install.sh | preflight run sha256=561aa9d6533ca228c43e784bf9fe8b74c8bfd8c443386dbf20bb714ac2969ceb
       
       - name: do stuff
-        run: preflight
+        run: preflight run
